@@ -18,7 +18,7 @@ body {
   height: 8px;
 }
 *::-webkit-scrollbar-thumb {
-  background: #49b1f5;
+  background: #fff;
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
@@ -2234,7 +2234,7 @@ blockquote footer cite:before {
 }
 #footer-wrap {
   position: relative;
-  padding: 2rem 1rem;
+  padding: 0.2rem 1rem;
   color: #eee;
   text-align: center;
 }
