@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>valine评论【添加微信、qq提醒】详细教程</title>
+      <link href="/2020/05/01/valine/"/>
+      <url>/2020/05/01/valine/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Service-酱-微信教程"><a href="#Service-酱-微信教程" class="headerlink" title="Service 酱 微信教程"></a>Service 酱 微信教程</h1><ul><li>进入 <a href="https://1620993037.github.io/heart/" target="_blank">server酱官网</a>使用github账号授权登入<br><img src="/" class="lazyload" data-src="/images/dr.png"  alt=" "></li><li>然后点击【微信推送】进行绑定微信<br><img src="/" class="lazyload" data-src="/images/wxt.png"  alt=" "></li><li>最后在【发送消息】把 SCKEY整段复制到 LeanCloud评论中心的云引擎-设置-自定义环境变量<br><img src="/" class="lazyload" data-src="/images/fs.png"  alt=" "><br><img src="/" class="lazyload" data-src="/images/pl.png"  alt=" "></li><li>以上布置完，在部署里重新生成<br><img src="/" class="lazyload" data-src="/images/bs.png"  alt=" "></li></ul><h1 id="Qmsg-酱-QQ教程"><a href="#Qmsg-酱-QQ教程" class="headerlink" title="Qmsg 酱 QQ教程"></a>Qmsg 酱 QQ教程</h1><ul><li>进入 <a href="https://1620993037.github.io/heart/" target="_blank">Qmsg 酱</a>使用QQ账号授权登入，并选择向你发送的账号与添加自己接收消息的号码。<br><img src="/" class="lazyload" data-src="/images/tj.png"  alt=" "></li><li>然后在【文档】把 SCKEY复制到 LeanCloud评论中心的云引擎-设置-自定义环境变量，SCKEY就是我模糊的地方。<br><img src="/" class="lazyload" data-src="/images/my.png"  alt=" "><br><img src="/" class="lazyload" data-src="/images/pl1.png"  alt=" "></li><li>以上布置完，在部署里重新生成<br><img src="/" class="lazyload" data-src="/images/bs.png"  alt=" "></li></ul><h1 id="防止服务器休眠"><a href="#防止服务器休眠" class="headerlink" title="防止服务器休眠"></a>防止服务器休眠</h1><ul><li>进入云引擎 - 定时任务中，创建定时器，创建两个定时任务。</li><li>选择 self-wake 云函数，Cron 表达式为 0 0/20 7-23 * * ?，表示每天早 7 点到晚 23:59 点每隔 20 分钟访问云引擎<br><img src="/" class="lazyload" data-src="/images/self.png"  alt=" "></li><li>选择 resend-mails 云函数，Cron 表达式为 0 59 7 * * *，表示每天早 8 点检查过去 24 小时内漏发的通知邮件并补发<br><img src="/" class="lazyload" data-src="/images/resend.png"  alt=" "></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Butterfly主题个性化</title>
       <link href="/2020/04/27/Butterfly%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96/"/>
       <url>/2020/04/27/Butterfly%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96/</url>
