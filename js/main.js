@@ -106,7 +106,6 @@ $(function () {
       paddingRight: 300
     }, 400)
     $('#body-wrap').animate({
-      paddingLeft: 300
     }, 400)
     $('#sidebar').animate({
       left: 0
